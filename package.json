@@ -1,0 +1,28 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "audit": "^0.0.6",
+    "ejs": "^7.0.2",
+    "express": "^5.3.0",
+    "express-handlebars": "^9.0.6",
+    "fix": "^0.0.3",
+    "morgan": "^1.12.1"
+  },
+  "devDependencies": {
+    "chai": "^6.3.0",
+    "jest": "^29.7.0",
+    "mocha": "^12.0.3",
+    "supertest": "^7.3.2"
+  }
+}
